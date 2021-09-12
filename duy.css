@@ -1,0 +1,802 @@
+*{margin: 0; padding: 0;}
+:root{
+    --color_1:#fff;
+}
+.content_top{
+    width: 100%;
+    height: 656px;
+    background-image: url(belton.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    box-sizing: border-box;
+}
+.content_top .col{
+     display: flex;
+     width: 100%;
+     position: absolute;
+}
+.content_top .col .item_1{
+    width: 33.33%;
+    padding: 25px;
+    font-size: 20px;
+    
+}
+.content_top .col .item_2{
+    width: 33.33%;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 15px;
+}
+.content_top .col .item_2 img{width: 25%;}
+.content_top .col .item_3{
+    width: 33.33%;
+    padding: 35px;
+    text-align: right;
+}
+
+.content_top .col .item_1 .fa{
+    color: var(--color_1);
+}
+.content_top .col .item_3 .fa{
+    color: #888;
+    margin: 5px;
+    transition: 0.3s;
+}
+.content_top .col .item_3 .fa:hover{
+    color: var(--color_1);
+}
+.content_top::before{
+    content: '';
+    background-image: -webkit-linear-gradient(left, #000000cc 0, #1d1c1c12 50%, #00000061 100%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.content_top .content{
+    width: 1000px;
+    color: var(--color_1);
+    
+    position: absolute;
+    top: 326px;
+    left: 238px; 
+}
+.content_top .content h2{
+    font-family:'Oswald', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 1.25;
+    letter-spacing: -0.5px
+}
+
+/*------------------------------CSS CONTENT-------------------------------------*/
+/*------------------------------------------------------------------------------------*/
+/*------------------------------CSS CONTENT-------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*------------------------------CSS CONTENT-------------------------------------*/
+/*-----------------------------------------------------------------------------------------*/
+.banner_top{
+    width: 100%;
+    height: 465px;
+    background-color: var(--color_1);
+    box-sizing: border-box;
+    display: flex;
+    padding-top: 110px;
+    
+}
+.banner_top .col_left{
+    line-height: 2.35;
+    width: 20%;
+    padding-left: 227px;
+    
+}
+.banner_top .col_left h3{
+    display:block;
+    font-family:'Oswald', sans-serif ;
+    font-weight: bolder;
+    font-size: 22px;
+    line-height: 1.8;
+    text-transform: uppercase;
+    
+}
+.banner_top .col_left p{
+    color: #666666bf;
+}
+.banner_top .col_right{
+    text-align: left;
+    padding-left: 68px;
+    color: #666666bf;
+    width: 80%;
+    line-height: 1.6;
+}
+.banner_top .col_right .p_1{
+    padding-bottom: 15px;
+    width: 672px;
+
+}
+.banner_top .col_right .utility{
+    color: #666666bf;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.4s;
+}
+.banner_top .col_right .utility span{
+    position: relative;
+    top: -4px;
+}
+.banner_top .col_right .utility::before{
+    content: "\f178";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 23px;
+    font-weight: normal;
+    padding-right: 10px;
+    position: relative;
+    left: 0;
+    transition: 0.4s;
+}
+.banner_top .col_right .utility:hover::before{
+    left:5px;
+}
+.banner_top .col_right .utility:hover{
+    color: black;
+}
+.banner_end{
+    background-color: black;
+    width: 100%; 
+    height:2102px;
+    position: relative;
+}
+.banner_end .banner_end_menu{
+    width: 700px;
+    display: flex; 
+    margin: auto;
+    box-sizing: border-box;
+    padding: 90px 20px;
+    padding-bottom: 15px;
+}
+.banner_end .banner_end_menu .item{text-decoration: none;}
+.banner_end .banner_end_menu .item{
+    display: block;
+    color: #c2c1c1bf;
+    text-align: center;
+    margin: auto;
+    font-size: 17px;
+    transition: 0.3s;
+}
+.banner_end .banner_end_menu .item:hover{
+    color: var(--color_1);
+}
+.banner_end .banner_end_products{
+    width: 1141px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------SLIDE-1--------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------*/
+.banner_end .banner_end_products .product_1{
+    position: relative;
+    width: 557px;
+    height: 374px;
+    color: var(--color_1);
+    box-sizing: border-box; 
+    margin-bottom: 25px;
+}
+.banner_end .banner_end_products .product_1 .wallpaper{ 
+    transition: 0.8s;
+}
+.banner_end .banner_end_products .product_1:hover img{
+    opacity: 0.7;
+}
+.banner_end .banner_end_products .product_1 .title{
+    font-size: 18px;
+    box-sizing: border-box;
+    width: 110px;
+    height: 36px;
+    position:absolute;
+    text-align: right;
+    top: 57px;
+    left: 416px;
+    overflow: hidden;
+    opacity: 0;
+}
+.banner_end .banner_end_products .product_1:hover .title{
+    opacity: 1;
+}
+.banner_end .banner_end_products .product_1 .title p{
+    position: relative;
+    top: 7px;
+    left: -9px;
+}
+.banner_end .banner_end_products .product_1 .title  .title_white{
+    width: 90px;
+    height: 39px;
+    background-color: white;
+    position: relative;
+    top: -30px;
+    left: 150px;
+    transition: 0.8s;
+}   
+.banner_end .banner_end_products .product_1:hover .title .title_white{
+    opacity: 1;
+    top: -30px;
+    left: -93px;
+}   
+.banner_end .banner_end_products .product_1 .name_product{
+    width: 109px;
+    height: 37px;
+    position: relative;
+    top: 90px;
+    left: 417px;
+    overflow: hidden;
+    opacity: 0;
+}
+.banner_end .banner_end_products .product_1:hover .name_product{
+    opacity: 1;
+}
+.banner_end .banner_end_products .product_1 .name_product_white{
+    width: 109;
+    height: 36px;
+    background-color: var(--color_1);
+    position: relative;
+    top: -34px;
+    left: -123px;
+    transition: 0.8s;
+}
+.banner_end .banner_end_products .product_1:hover .name_product_white{  
+    opacity: 1;
+    top: -34px;
+    left: 109px;
+}
+.banner_end .banner_end_products .product_1 .name_product .name{
+    font-family:'Oswald', sans-serif ;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 900;
+    opacity: 0;
+}
+.banner_end .banner_end_products .product_1:hover .name_product .name{
+    opacity: 1;
+}
+.banner_end .banner_end_products .product_1 .wallpaper{width: 100%;}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------SLIDE-2--------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------*/
+.banner_end .banner_end_products .product_2{
+    position: relative;
+    width: 557px;
+    height: 374px;
+    color: var(--color_1);
+    box-sizing: border-box; 
+    margin-bottom: 25px;
+}
+.banner_end .banner_end_products .product_2:hover .wallpaper{
+    opacity: 0.7;
+}
+.banner_end .banner_end_products .product_2 .title2{
+    font-size: 18px;
+    box-sizing: border-box;
+    width: 110px;
+    height: 36px;
+    position:absolute;
+    text-align: right;
+    top: 57px;
+    left: 416px;
+    overflow: hidden;
+    opacity: 0;
+}
+.banner_end .banner_end_products .product_2:hover .title2{
+    opacity: 1;
+}
+.banner_end .banner_end_products .product_2 .title2 p{
+    position: relative;
+    top: 7px;
+    left: -9px;
+}
+.banner_end .banner_end_products .product_2 .title2  .title_white2{
+    width: 90px;
+    height: 39px;
+    background-color: var(--color_1);
+    position: relative;
+    top: -30px;
+    left: 150px;
+    transition: 0.8s;
+}   
+.banner_end .banner_end_products .product_2:hover .title2 .title_white2{
+    opacity: 1;
+    top: -30px;
+    left: -93px;
+}   
+.banner_end .banner_end_products .product_2 .name_product2{
+    width: 162px;
+    height: 37px;
+    position: relative;
+    top: 90px;
+    left: 362px;
+    overflow: hidden;
+    opacity: 0;
+}
+.banner_end .banner_end_products .product_2 .name_product2{
+    opacity: 1;
+}
+.banner_end .banner_end_products .product_2 .name_product_white2{
+    width: 168px;
+    height: 36px;
+    background-color: var(--color_1);
+    position: relative;
+    top: -34px;
+    left: -170px;
+    transition: 0.8s;
+}
+.banner_end .banner_end_products .product_2:hover .name_product_white2{  
+    top: -34px;
+    left: 164px;
+}
+.banner_end .banner_end_products .product_2 .name_product2 .name2{
+    font-family:'Oswald', sans-serif ;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 900;
+    opacity: 0;
+}
+.banner_end .banner_end_products .product_2:hover .name_product2 .name2{
+    opacity: 1;
+}
+.banner_end .banner_end_products .product_2 .wallpaper{width: 100%;}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------SLIDE-3--------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------*/
+.banner_end .banner_end_products .product_3{
+    position: relative;
+    width: 557px;
+    height: 374px;
+    color: var(--color_1);
+    box-sizing: border-box; 
+    margin-bottom: 25px;
+}
+.banner_end .banner_end_products .product_3:hover .wallpaper{
+    opacity: 0.7;
+}
+.banner_end .banner_end_products .product_3 .title3{
+    font-size: 18px;
+    box-sizing: border-box;
+    width: 110px;
+    height: 36px;
+    position:absolute;
+    text-align: right;
+    top: 57px;
+    left: 416px;
+    overflow: hidden;
+    opacity: 0;
+}
+.banner_end .banner_end_products .product_3:hover .title3{
+    opacity: 1;
+}
+.banner_end .banner_end_products .product_3 .title3 p{
+    position: relative;
+    top: 7px;
+    left: -9px;
+}
+.banner_end .banner_end_products .product_3 .title3  .title_white3{
+    width: 90px;
+    height: 39px;
+    background-color: var(--color_1);
+    position: relative;
+    top: -30px;
+    left: 150px;
+    transition: 0.8s;
+}   
+.banner_end .banner_end_products .product_3:hover .title3 .title_white3{
+    opacity: 1;
+    top: -30px;
+    left: -93px;
+}   
+.banner_end .banner_end_products .product_3 .name_product3{
+    width: 371px;
+    height: 37px;
+    position: relative;
+    top: 90px;
+    left: 155px;
+    overflow: hidden;
+    opacity: 0;
+}
+.banner_end .banner_end_products .product_3:hover .name_product3{
+    opacity: 1;
+}
+.banner_end .banner_end_products .product_3 .name_product_white3{
+    width: 392px;
+    height: 36px;
+    background-color: var(--color_1);
+    position: relative;
+    top: -34px;
+    left: -420px;
+    transition: 0.8s;
+}
+.banner_end .banner_end_products .product_3:hover .name_product_white3{  
+    top: -34px;
+    left: 371px;
+}
+.banner_end .banner_end_products .product_3 .name_product3 .name3{
+    font-family:'Oswald', sans-serif ;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 900;
+    opacity: 0;
+}
+.banner_end .banner_end_products .product_3:hover .name_product3 .name3{
+    opacity: 1;
+}
+.banner_end .banner_end_products .product_3 .wallpaper{width: 100%;}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------SLIDE-4--------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------*/
+.banner_end .banner_end_products .product_4{
+    position: relative;
+    width: 557px;
+    height: 374px;
+    color: var(--color_1);
+    box-sizing: border-box; 
+    margin-bottom: 25px;
+}
+.banner_end .banner_end_products .product_4:hover .wallpaper{
+    opacity: 0.7;
+}
+.banner_end .banner_end_products .product_4 .title4{
+    font-size: 18px;
+    box-sizing: border-box;
+    width: 110px;
+    height: 36px;
+    position:absolute;
+    text-align: right;
+    top: 57px;
+    left: 416px;
+    overflow: hidden;
+    opacity: 0;
+}
+.banner_end .banner_end_products .product_4:hover .title4{
+    opacity: 1;
+}
+.banner_end .banner_end_products .product_4 .title4 p{
+    position: relative;
+    top: 7px;
+    left: -9px;
+}
+.banner_end .banner_end_products .product_4 .title4  .title_white4{
+    width: 90px;
+    height: 39px;
+    background-color: var(--color_1);
+    position: relative;
+    top: -30px;
+    left: 150px;
+    transition: 0.8s;
+}   
+.banner_end .banner_end_products .product_4:hover .title4 .title_white4{
+    opacity: 1;
+    top: -30px;
+    left: -93px;
+}   
+.banner_end .banner_end_products .product_4 .name_product4{
+    width: 168px;
+    height: 37px;
+    position: relative;
+    top: 90px;
+    left: 358px;
+    text-align: right;
+    overflow: hidden;
+    opacity: 0;
+}
+.banner_end .banner_end_products .product_4:hover .name_product4{
+    opacity: 1;
+}
+.banner_end .banner_end_products .product_4 .name_product_white4{
+    width: 156px;
+    height: 36px;
+    background-color: var(--color_1);
+    position: relative;
+    top: -34px;
+    left: -190px;
+    transition: 0.8s;
+}
+.banner_end .banner_end_products .product_4:hover .name_product_white4{  
+    top: -34px;
+    left: 185px;
+}
+.banner_end .banner_end_products .product_4 .name_product4 .name4{
+    font-family:'Oswald', sans-serif ;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 900;
+    opacity: 0;
+}
+.banner_end .banner_end_products .product_4:hover .name_product4 .name4{
+    opacity: 1;
+}
+.banner_end .banner_end_products .product_4 .wallpaper{width: 100%;}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------SLIDE-5--------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------*/
+.banner_end .banner_end_products .product_5{
+    position: relative;
+    width: 557px;
+    height: 374px;
+    color: var(--color_1);
+    box-sizing: border-box; 
+    margin-bottom: 25px;
+}
+.banner_end .banner_end_products .product_5:hover .wallpaper{
+    opacity: 0.7;
+}
+.banner_end .banner_end_products .product_5 .title5{
+    font-size: 18px;
+    box-sizing: border-box;
+    width: 120px;
+    height: 36px;
+    position:absolute;
+    text-align: right;
+    top: 57px;
+    left: 410px;
+    overflow: hidden;
+    opacity: 0;
+}
+.banner_end .banner_end_products .product_5:hover .title5{
+    opacity: 1;
+}
+.banner_end .banner_end_products .product_5 .title5 p{
+    position: relative;
+    top: 7px;
+    left: -9px;
+}
+.banner_end .banner_end_products .product_5 .title5  .title_white5{
+    width: 90px;
+    height: 39px;
+    background-color: var(--color_1);
+    position: relative;
+    top: -30px;
+    left: 140px;
+    transition: 0.8s;
+}   
+.banner_end .banner_end_products .product_5:hover .title5 .title_white5{
+    opacity: 1;
+    top: -30px;
+    left: -150px;
+}   
+.banner_end .banner_end_products .product_5 .name_product5{
+    width: 170px;
+    height: 37px;
+    position: relative;
+    top: 90px;
+    left: 360px;
+    text-align: center;
+    overflow: hidden;
+}
+.banner_end .banner_end_products .product_5:hover .name_product5{
+    opacity: 1;
+}
+.banner_end .banner_end_products .product_5 .name_product_white5{
+    width: 152px;
+    height: 36px;
+    background-color: var(--color_1);
+    position: relative;
+    top: -34px;
+    left: -153px;
+    transition: 0.8s;
+}
+.banner_end .banner_end_products .product_5:hover .name_product_white5{  
+    top: -34px;
+    left: 172px;
+}
+.banner_end .banner_end_products .product_5 .name_product5 .name5{
+    font-family:'Oswald', sans-serif ;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 900;
+    opacity: 0;
+}
+.banner_end .banner_end_products .product_5:hover .name_product5 .name5{
+    opacity: 1;
+}
+.banner_end .banner_end_products .product_5 .wallpaper{width: 100%;}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------SLIDE-6--------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------*/
+.banner_end .banner_end_products .product_6{
+    position: relative;
+    width: 557px;
+    height: 374px;
+    color: var(--color_1);
+    box-sizing: border-box; 
+    margin-bottom: 25px;
+}
+.banner_end .banner_end_products .product_6:hover .wallpaper{
+    opacity: 0.7;
+}
+.banner_end .banner_end_products .product_6 .title6{
+    font-size: 18px;
+    box-sizing: border-box;
+    width: 110px;
+    height: 36px;
+    position:absolute;
+    text-align: right;
+    top: 57px;
+    left: 416px;
+    overflow: hidden;
+    opacity: 0;
+}
+.banner_end .banner_end_products .product_6:hover .title6{
+    opacity: 1;
+}
+.banner_end .banner_end_products .product_6 .title6 p{
+    position: relative;
+    top: 7px;
+    left: -9px;
+}
+.banner_end .banner_end_products .product_6 .title6  .title_white6{
+    width: 90px;
+    height: 39px;
+    background-color: var(--color_1);
+    position: relative;
+    top: -30px;
+    left: 150px;
+    transition: 0.8s;
+}   
+.banner_end .banner_end_products .product_6:hover .title6 .title_white6{
+    opacity: 1;
+    top: -30px;
+    left: -93px;
+}   
+.banner_end .banner_end_products .product_6 .name_product6{
+    width: 136px;
+    height: 37px;
+    position: relative;
+    top: 90px;
+    left: 390px;
+    overflow: hidden;
+    opacity: 0;
+}
+.banner_end .banner_end_products .product_6:hover .name_product6{
+    opacity: 1;
+}
+.banner_end .banner_end_products .product_6 .name_product_white6{
+    width: 136px;
+    height: 36px;
+    background-color: var(--color_1);
+    position: relative;
+    top: -34px;
+    left: -137px;
+    transition: 0.8s;
+}
+.banner_end .banner_end_products .product_6:hover .name_product_white6{  
+    top: -34px;
+    left: 136px;
+}
+.banner_end .banner_end_products .product_6 .name_product6 .name6{
+    font-family:'Oswald', sans-serif ;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 900;
+    opacity: 0;
+}
+.banner_end .banner_end_products .product_6:hover .name_product6 .name6{
+    opacity: 1;
+}
+.banner_end .banner_end_products .product_6 .wallpaper{width: 100%;}
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------OPTICAL----------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------*/
+.banner_end_optical{
+    width: 100%;
+    height: 500px;
+    background-color: var(--color_1);
+    margin-top: 137px;
+}
+.banner_end_optical .banner_end_optical_logo{
+    width: 1000px;
+    height: 137px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.banner_end_optical .banner_end_optical_logo .logo{
+    padding-top: 80px;
+    opacity: 0.5;
+}
+.banner_end_optical .banner_end_optical_logo .logo img{
+    width: 130px;
+    height: 130px;
+}
+.banner_end_optical hr{
+    width: 1000px;
+    position: relative;
+    top: 105px;
+    opacity: 0.5;
+    margin: auto;
+}
+.banner_end_optical_content{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    position: relative;
+    top: 150px;
+    justify-content: space-between;
+}
+.banner_end_optical_content ._1{
+    font-family: segoe ui light;
+    font-size: 17px;
+    padding: 0 20px;
+}
+.banner_end_optical_content ._2{
+    opacity: 0.5;
+    width: 395px;
+    position: relative;
+    left: -150px;
+    line-height: 1.5;
+}
+.banner_end_optical_content ._3 .set{
+    color: black;
+    opacity: 0.5;
+    position: relative;
+    top: 2px;
+    font-size: 16px;
+    transition: 0.4s;
+    text-decoration: none;
+}
+.banner_end_optical_content ._3:hover .set{
+    opacity: 1;
+    
+}
+.banner_end_optical_content ._3 .set::before{
+    content: "\f178";
+    font: normal normal normal 14px/1 FontAwesome;
+    position: relative;
+    top: 3px;
+    left: -15px;
+    font-size: 21px;
+    transition: 0.4s;
+}
+.banner_end_optical_content ._3:hover .set::before{
+    left: -8px;
+    opacity: 1;
+}
+.belton_theme{
+    color: var(--color_1);
+    position: relative;
+    top: 53px;
+    left: 57px;
+    font-size: 14px;
+}
+.performer{
+    color: var(--color_1);
+    position: relative;
+    top: 35px;
+    left: 1165px;
+    font-size: 15px;
+}
+.performer .fa{
+    color: rgb(60, 173, 60);
+}
+.performer a{
+    text-decoration: none;
+    color: var(--color_1);
+    opacity: 0.7;
+    transition: 0.4s;
+}
+.performer a:hover{
+    opacity: 1;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------END---------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
